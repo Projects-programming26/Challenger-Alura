@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Encriptador y Desencriptador</title>
+	<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Encriptador y Desencriptador</h1>
+
+        <textarea id="inputText" placeholder="Ingrese su texto aquí"></textarea>
+
+        <button class="encrypt" onclick="encryptText()">Encriptar</button>
+        <button class="decrypt" onclick="decryptText()">Desencriptar</button>
+        <button class="copy" onclick="copyText()">Copiar</button>
+
+        <div class="result" id="result">
+            <img src="placeholder.png" alt="Resultado" id="resultImage">
+            <p id="resultText" style="display: none;"></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Desarrollado por Peter</p>
+    </footer>
+    <script src="Codigo.js"></script>
+</body>
+</html>
